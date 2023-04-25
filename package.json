@@ -51,6 +51,7 @@
     ]
   },
   "os": [
-    "darwin"
+    "darwin",
+    "windows"
   ]
 }
