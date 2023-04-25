@@ -1,3 +1,6 @@
+if(process.platform !== "darwin"){
+  return;
+}
 const permissions = require('bindings')('permissions.node')
 
 function getAuthStatus(type) {
